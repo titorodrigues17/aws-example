@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estudiantes </title>
+    <title>Estudiantes</title>
 
     <style>
         body {
@@ -21,6 +21,7 @@
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 0.3s ease-in;
         }
     
         h1, h2 {
@@ -78,7 +79,7 @@
             margin: 5px 0;
             color: #555;
         }
-    
+
         @keyframes fadeIn {
             from {
                 opacity: 0;
@@ -102,7 +103,7 @@
             <label for="surname">Apellidos:</label>
             <input type="text" id="surname" name="surname" required>
             <br>
-            <label for="autoselft">Autoevalucion:</label>
+            <label for="autoselft">Autoevaluacion:</label>
             <input type="number" id="autoselft" name="autoselft" step="0.1" required>
             <br>
             <button type="submit">Agregar Estudiante</button>
